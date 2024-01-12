@@ -1,4 +1,4 @@
-#include "library.h"
+#include <test_external/library.h>
 
 #include <iostream>
 
