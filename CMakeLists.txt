@@ -3,4 +3,5 @@ project(test_external)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_library(test_external SHARED library.cpp)
+add_library(test_external SHARED src/library.cpp)
+target_include_directories(test_external PUBLIC include)
