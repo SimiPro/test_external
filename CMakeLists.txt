@@ -19,3 +19,5 @@ install(TARGETS test_external
 # Specify the installation directory for header files
 install(DIRECTORY include/
         DESTINATION include)
+
+add_subdirectory(test)
